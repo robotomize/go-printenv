@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"fmt"
 
-	"gituhb.com/robotomize/go-printenv/internal/analysis"
+	"github.com/robotomize/go-printenv/internal/analysis"
 )
 
 type Printer interface {

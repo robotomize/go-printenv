@@ -7,8 +7,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"gituhb.com/robotomize/go-printenv/internal/parser"
-	"gituhb.com/robotomize/go-printenv/internal/slice"
+	"github.com/robotomize/go-printenv/internal/parser"
+	"github.com/robotomize/go-printenv/internal/slice"
 	"golang.org/x/mod/modfile"
 )
 

@@ -1,9 +1,9 @@
 package main
 
 import (
+	"github.com/robotomize/go-printenv/internal/analysis"
+	"github.com/robotomize/go-printenv/internal/printer"
 	"github.com/spf13/cobra"
-	"gituhb.com/robotomize/go-printenv/internal/analysis"
-	"gituhb.com/robotomize/go-printenv/internal/printer"
 )
 
 var (
