@@ -199,7 +199,7 @@ func (p *analysis) Analyze() ([]OutputEntry, error) {
 	return output, nil
 }
 
-func walkVendor(modPth, dir string, f func(modPth, dir string) error) error {
+func walkVendor(modPth, dir string, f func(modPth, dir string) error) error { // nolint
 	dirs, err := os.ReadDir(dir)
 	if err != nil {
 		return err
