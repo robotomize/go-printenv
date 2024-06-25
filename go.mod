@@ -3,7 +3,7 @@ module github.com/robotomize/go-printenv
 go 1.20
 
 require (
-	github.com/spf13/cobra v1.8.0
+	github.com/spf13/cobra v1.8.1
 	golang.org/x/mod v0.18.0
 )
 
